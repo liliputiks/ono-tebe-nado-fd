@@ -97,6 +97,9 @@ main {
     font-weight: bold;
     font-size: 100px;
     text-transform: uppercase;
+}
+
+.letter-spacing-extended {
     letter-spacing: 30%;
 }
 
@@ -234,7 +237,7 @@ main {
 }
 
 .about {
-    padding-top: 52px;
+    padding-top: 5px;
     width: 1052px;
     margin: 0 auto;
 }
@@ -316,6 +319,11 @@ main {
     justify-content: center;
     list-style: none;
     gap: 48px;
+}
+
+.footer__social-link{
+    width: 49px;
+    height: 49px;
 }
 
 .footer__address {
