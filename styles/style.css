@@ -9,7 +9,7 @@
 
 .header__links-list {
     display: flex;
-    gap: 11.5px;
+    gap: 10px;
     list-style: circle;
     margin-left: 50px;
     height: 22px;
@@ -276,13 +276,13 @@ main {
     display: flex;
     flex-direction: column;
     gap: 24px;
+    margin-top: 8px;
 }
 
 .about_text-paragraph {
     font-size: 20px;
     line-height: 24px;
     max-width: 688px;
-    margin-top: 8px;
 }
 
 .about__logo-image {
