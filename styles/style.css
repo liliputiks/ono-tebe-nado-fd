@@ -88,7 +88,7 @@ main {
 .cover_title {
     height: 385px;
     width: 1000px;
-    margin: auto;
+    margin: 165px auto auto auto;
 }
 
 .aligned-text {
@@ -101,7 +101,8 @@ main {
 }
 
 .letter-spacing-extended {
-    letter-spacing: 30%;
+    letter-spacing: 30px;
+    height: 115px;
 }
 
 .no-letter-spacing {
@@ -114,12 +115,14 @@ main {
 
 .aligned-text_center {
     display: block;
-    text-align: center;
+    margin-left: 330.5px;
+    margin-top: 20px;
 }
 
 .aligned-text_right {
     display: block;
     text-align: right;
+    margin-top: 20px;
 }
 
 .cover__description {
@@ -128,7 +131,7 @@ main {
     width: 1000px;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     margin-bottom: 50px;
 }
 
@@ -136,8 +139,8 @@ main {
     color: white;
     font-weight: normal;
     font-size: 22px;
-    word-spacing: 13px;
-    line-height: 22px;
+    word-spacing: 18.8px;
+    line-height: 28px;
     text-transform: uppercase;
 }
 
