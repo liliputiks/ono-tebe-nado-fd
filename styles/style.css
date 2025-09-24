@@ -242,7 +242,7 @@ main {
 
 .about {
     width: 1052px;
-    margin: 180px auto 120px auto;
+    margin: 120px auto 180px auto;
 }
 
 .about__logo {
@@ -282,6 +282,7 @@ main {
     font-size: 20px;
     line-height: 24px;
     max-width: 688px;
+    margin-top: 13px;
 }
 
 .about__logo-image {
