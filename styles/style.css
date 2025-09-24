@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: 1fr min-content 1fr;
     align-items: center;
+    justify-content: end;
     height: 293px;
     width: 100%;
 }
@@ -10,6 +11,7 @@
     display: flex;
     gap: 13px;
     list-style: circle;
+    margin-left: 50px;
 }
 
 .header__links-list-item {
@@ -22,11 +24,6 @@
 .header_link {
     text-decoration: none;
     border-bottom: 1px solid black;
-    
-}
-
-.header__links-list {
-    list-style: circle;
 }
 
 .header__links-list-item_no-bullit {
@@ -48,6 +45,13 @@
     flex-direction: column;
     align-items: flex-start;
     max-width: 240px;
+    font-size: 18px;
+    line-height: 24.3px;
+}
+
+.number, .mail{
+    text-decoration: underline;
+    text-underline-offset: 4.5px;
 }
 
 main {
@@ -80,7 +84,7 @@ main {
     margin: auto;
 }
 
-.aligned-text {  
+.aligned-text { 
     position: relative;
     z-index: 1;
     color: white;
@@ -129,11 +133,12 @@ main {
 
 .bet-button {
     color: white;
-    font-style: 22px;
+    font-size: 22px;
     text-transform: uppercase;
     font-weight: 500;
     border: 1px solid white;
-    padding: 11.5px 31.5px;
+    width: 256px;
+    height: 51px;
 }
 
 .lots {
@@ -145,7 +150,7 @@ main {
 }
 
 .lots__heading {
-    font-size: 20px;
+    font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
     align-self: start;
@@ -245,6 +250,7 @@ main {
     font-size: 40px;
     font-weight: bold;
     text-transform: uppercase;
+    font-family: Raleway;
 }
 
 .about__text {
