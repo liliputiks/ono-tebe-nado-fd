@@ -55,7 +55,7 @@
     margin-right: 50px;
 }
 
-.number, .mail{
+.number, .mail {
     text-decoration: underline;
     text-underline-offset: 4.5px;
 }
@@ -90,7 +90,7 @@ main {
     margin: auto;
 }
 
-.aligned-text { 
+.aligned-text {
     position: relative;
     z-index: 1;
     color: white;
@@ -234,7 +234,7 @@ main {
 }
 
 .about {
-    
+    padding-top: 52px;
     width: 1052px;
     margin: 0 auto;
 }
@@ -247,7 +247,7 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    margin: 35px 0 0 47px;
     grid-area: about__logo;
 }
 
@@ -318,6 +318,6 @@ main {
     gap: 48px;
 }
 
-.footer__address{
+.footer__address {
     margin: 0;
 }
