@@ -29,10 +29,18 @@ a {
   color: inherit;
 }
 
+
 img {
   width: 100%;
+  display: block;
 }
 
 button {
   font: inherit;
+  background-color: transparent;
+  border: none;
+}
+
+.z-index{
+  z-index: 1;
 }
