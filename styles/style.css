@@ -29,7 +29,7 @@
     list-style: circle;
 }
 
-.header__links-list > .header__links-list-item_no-bullit {
+.header__links-list-item_no-bullit {
     list-style: none;
 }
 
@@ -77,6 +77,10 @@ main {
 .cover_title {
     height: 385px;
     width: 1000px;
+    margin: auto;
+}
+
+.aligned-text {  
     position: relative;
     z-index: 1;
     color: white;
@@ -84,7 +88,6 @@ main {
     font-size: 100px;
     text-transform: uppercase;
     letter-spacing: 30%;
-    margin: auto;
 }
 
 .no-letter-spacing {
