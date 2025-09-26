@@ -263,7 +263,7 @@ main {
 .about__title {
     grid-area: about__title;
     font-size: 40px;
-    font-family: Raleway, 'Times New Roman', serif;;
+    font-family: Raleway, 'Times New Roman', serif;
     font-weight: bold;
     text-transform: uppercase;
     margin-top: 40px;
